@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Bank - C++ DSA Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">SB</div>
+      <div>
+        <h1>SMART BANK</h1>
+        <p>C++ DSA PROJECT</p>
+      </div>
+    </div>
+
+    <nav>
+      <button data-page="dashboard" class="nav active">Dashboard</button>
+      <button data-page="accounts" class="nav">Accounts</button>
+      <button data-page="deposit" class="nav">Deposit</button>
+      <button data-page="withdraw" class="nav">Withdraw</button>
+      <button data-page="transfer" class="nav">Transfer</button>
+      <button data-page="transactions" class="nav">Transactions</button>
+      <button data-page="qr" class="nav">QR Cardless ATM</button>
+      <button data-page="cards" class="nav">Cards</button>
+      <button data-page="loans" class="nav">Loans</button>
+      <button data-page="fd" class="nav">Fixed Deposit</button>
+      <button data-page="investments" class="nav">Investments</button>
+      <button data-page="passbook" class="nav">e-Passbook</button>
+      <button data-page="profile" class="nav">Account Profile</button>
+      <button data-page="smart" class="nav">Smart Features Lab</button>
+      <button data-page="admin" class="nav">Admin</button>
+    </nav>
+
+    <div class="creator">Created by <strong>SANCHIT NAYYAR</strong></div>
+    <div class="sidebar-bottom">
+      <div class="tech">Hash Map • BST • Queue • Stack • Vector</div>
+      <div id="sessionState">Not logged in</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">DIGITAL BANKING PLATFORM • CREATED BY SANCHIT NAYYAR</div>
+        <h2 id="pageTitle">Dashboard</h2>
+      </div>
+      <div class="top-actions">
+        <span class="status-dot"></span>
+        <span>Backend: C++</span>
+      </div>
+    </header>
+
+    <section id="content" class="content"></section>
+  </main>
+</div>
+
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
